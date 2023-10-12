@@ -2,12 +2,14 @@
 
 /**
  * print_sign - prints the sign of a number
- * @n: the int to check
+ * @n: The number to be checked
  * Return: 1 for positive num, for negative num or zero for anything else
  */
 
 int print_sign(int n)
+
 {
+
 	if (n > 0)
 	{
 	_putchar(43);
@@ -20,7 +22,7 @@ int print_sign(int n)
 	}
 	else
 	{
-	_putchar('-');
+	_putchar(48);
 	return (0);
 	}
 }
